@@ -1,0 +1,45 @@
+.body{
+    background-color: black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p{
+    font-family: 'Montserrat', sans-serif;
+    color:white;
+
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+.containercenter{
+    display: flex;
+    width: 66vw;
+}
+
+.containersx{
+    
+    flex: 1;
+    height: 90vh;
+    background-color:grey;
+    border-top-left-radius:20px ;
+}
+
+.containerdx{
+    display: flex;
+    flex: 3;
+    height: 90vh;
+    background-color: red;
+    border-top-right-radius:20px ;
+    flex-direction: column;
+}
